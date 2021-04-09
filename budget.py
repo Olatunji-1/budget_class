@@ -6,14 +6,14 @@ class Budget:
     def deposit(self):
         amount = int(input('How much do you want to deposit?\n'))
 
-        print('Transaction successful')
+        print(f'You have successfully deposited {amount}')
 
         self.amount += amount
 
     def withdraw(self):
         amount = int(input('How much do you want to withdraw?\n'))
 
-        print('Transaction successful')
+        print(f'You have successfully withdrawn {amount}')
 
         self.amount -= amount
 
